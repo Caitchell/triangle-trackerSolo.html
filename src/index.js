@@ -1,5 +1,10 @@
 // User Interface
 
+// Triangle Import
+import Triangle from './triangle.js';
+// css Import
+import './css/styles.css';
+
 $(document).ready(function() {
     $('#triangle-checker-form').submit(function(event) {
     event.preventDefault();
